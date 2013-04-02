@@ -1,0 +1,33 @@
+Roberto E. Cruz
+Assignment 7
+Test Cases:
+Problem 1: [Writing Methods]
+-------------------------------
+Test Case 1
+Inputs:
+1
+5000
+1
+Expected Output:
+2.15
+Actual Output:
+2.15
+-------------------------------
+Test Case 2
+Inputs:
+2
+1
+6000
+3
+Expected Output:
+461.53
+Actual Output:
+461.53
+------------------------------
+Test Case 3
+Inputs:
+3
+Expected Output:
+Exited Program
+Actual Output:
+Exited Program

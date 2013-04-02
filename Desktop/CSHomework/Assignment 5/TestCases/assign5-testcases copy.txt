@@ -1,0 +1,60 @@
+Roberto E. Cruz
+Assignment 4 
+Test Cases:
+Problem 1: (PigLatin)
+-----------
+Test case 1:
+Inputs:
+Roberto
+Expected Output:
+Result: obertoray
+Actual Output:
+Result: obertoray
+
+Test case 2:
+Inputs:
+Eric
+Expected Output:
+Result: Ericway
+Actual Output:
+Result: Ericway
+
+
+
+Problem 2: (WordCount)
+-----------
+Test case 1:
+Inputs:
+Hello grader, please be kind. 
+5
+Expected Output:
+Result: 3
+Actual Output:
+Result: 3
+Test case 2:
+Inputs:
+Apparently, this is working
+7
+Expected Output:
+Result: 2
+Actual Output:
+Result: 2
+
+Problem 3 (Compress)
+----------
+Test case 1:
+Inputs:Fourrrr'ssss
+Expected Output:
+Result: Fou4r'4s
+Actual Output:
+Result: Fou4r'4s
+
+Test case 2:
+Inputs:
+Heyylloo
+Expected Output:
+Result: He2y2l2o
+Actual Output:
+Result: He2y2l2o
+
+

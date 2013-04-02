@@ -1,0 +1,95 @@
+Roberto E. Cruz
+Assignment 4 
+Test Cases:
+Problem 1: (Scores)
+-----------
+Test case 1:
+Inputs:
+4
+-4.3
+3.7
+4.9
+11.0
+10.5
+10.0
+4.3
+Expected Output:
+acceptable input
+user entered bad input
+acceptable input
+acceptable input
+user entered bad input
+user entered bad input
+acceptable input
+acceptable input
+Result: 4.6
+Actual Output:
+Result: 4.6000000001
+
+Test case 2:
+Inputs:
+2
+3 
+10.0
+10.0
+10.0
+Expected Output:
+report bad input
+Result: 10.0
+Actual Output:
+Result: 10.0
+
+
+
+Problem 2: (TwoSmallest)
+-----------
+Test case 1:
+Inputs:
+123
+17
+23.5
+10
+15.2
+30
+8
+16
+123
+Expected Output:
+Result: 8.0
+Result: 10.0
+Actual Output:
+Result: 8.0
+Result: 10.0
+Test case 2:
+Inputs:
+1
+23
+-23
+23
+-23
+-23
+1
+Expected Output:
+Result: -23
+Actual Output:
+Result: -23
+
+Problem 3 (NthPrime)
+----------
+Test case 1:
+Inputs:
+10
+Expected Output:
+Result: 29
+Actual Output:
+29
+
+Test case 2:
+Inputs:
+1
+Expected Output:
+1
+Actual Output:
+1
+
+
