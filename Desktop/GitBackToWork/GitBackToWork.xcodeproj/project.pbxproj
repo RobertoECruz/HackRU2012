@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC11117C17DBAB9200A00C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11117B17DBAB9200A00C03 /* UIKit.framework */; };
+		FC11117E17DBAB9200A00C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11117D17DBAB9200A00C03 /* Foundation.framework */; };
+		FC11118017DBAB9200A00C03 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11117F17DBAB9200A00C03 /* CoreGraphics.framework */; };
+		FC11118617DBAB9200A00C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC11118417DBAB9200A00C03 /* InfoPlist.strings */; };
+		FC11118817DBAB9200A00C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC11118717DBAB9200A00C03 /* main.m */; };
+		FC11118C17DBAB9200A00C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC11118B17DBAB9200A00C03 /* AppDelegate.m */; };
+		FC11118E17DBAB9200A00C03 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC11118D17DBAB9200A00C03 /* Default.png */; };
+		FC11119017DBAB9200A00C03 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC11118F17DBAB9200A00C03 /* Default@2x.png */; };
+		FC11119217DBAB9200A00C03 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC11119117DBAB9200A00C03 /* Default-568h@2x.png */; };
+		FC11119517DBAB9200A00C03 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC11119317DBAB9200A00C03 /* MainStoryboard_iPhone.storyboard */; };
+		FC11119817DBAB9200A00C03 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC11119617DBAB9200A00C03 /* MainStoryboard_iPad.storyboard */; };
+		FC11119B17DBAB9200A00C03 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC11119A17DBAB9200A00C03 /* MasterViewController.m */; };
+		FC11119E17DBAB9200A00C03 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC11119D17DBAB9200A00C03 /* DetailViewController.m */; };
+		FC1111A617DBAB9200A00C03 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1111A517DBAB9200A00C03 /* SenTestingKit.framework */; };
+		FC1111A717DBAB9200A00C03 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11117B17DBAB9200A00C03 /* UIKit.framework */; };
+		FC1111A817DBAB9200A00C03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC11117D17DBAB9200A00C03 /* Foundation.framework */; };
+		FC1111B017DBAB9200A00C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC1111AE17DBAB9200A00C03 /* InfoPlist.strings */; };
+		FC1111B317DBAB9200A00C03 /* GitBackToWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1111B217DBAB9200A00C03 /* GitBackToWorkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1111A917DBAB9200A00C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC11117017DBAB9200A00C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC11117717DBAB9200A00C03;
+			remoteInfo = GitBackToWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC11117817DBAB9200A00C03 /* GitBackToWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitBackToWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC11117B17DBAB9200A00C03 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC11117D17DBAB9200A00C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC11117F17DBAB9200A00C03 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC11118317DBAB9200A00C03 /* GitBackToWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitBackToWork-Info.plist"; sourceTree = "<group>"; };
+		FC11118517DBAB9200A00C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC11118717DBAB9200A00C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC11118917DBAB9200A00C03 /* GitBackToWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitBackToWork-Prefix.pch"; sourceTree = "<group>"; };
+		FC11118A17DBAB9200A00C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC11118B17DBAB9200A00C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC11118D17DBAB9200A00C03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC11118F17DBAB9200A00C03 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC11119117DBAB9200A00C03 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC11119417DBAB9200A00C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FC11119717DBAB9200A00C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FC11119917DBAB9200A00C03 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		FC11119A17DBAB9200A00C03 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		FC11119C17DBAB9200A00C03 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FC11119D17DBAB9200A00C03 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FC1111A417DBAB9200A00C03 /* GitBackToWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitBackToWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1111A517DBAB9200A00C03 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC1111AD17DBAB9200A00C03 /* GitBackToWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitBackToWorkTests-Info.plist"; sourceTree = "<group>"; };
+		FC1111AF17DBAB9200A00C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC1111B117DBAB9200A00C03 /* GitBackToWorkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitBackToWorkTests.h; sourceTree = "<group>"; };
+		FC1111B217DBAB9200A00C03 /* GitBackToWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitBackToWorkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC11117517DBAB9200A00C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11117C17DBAB9200A00C03 /* UIKit.framework in Frameworks */,
+				FC11117E17DBAB9200A00C03 /* Foundation.framework in Frameworks */,
+				FC11118017DBAB9200A00C03 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1111A017DBAB9200A00C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1111A617DBAB9200A00C03 /* SenTestingKit.framework in Frameworks */,
+				FC1111A717DBAB9200A00C03 /* UIKit.framework in Frameworks */,
+				FC1111A817DBAB9200A00C03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC11116F17DBAB9200A00C03 = {
+			isa = PBXGroup;
+			children = (
+				FC11118117DBAB9200A00C03 /* GitBackToWork */,
+				FC1111AB17DBAB9200A00C03 /* GitBackToWorkTests */,
+				FC11117A17DBAB9200A00C03 /* Frameworks */,
+				FC11117917DBAB9200A00C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC11117917DBAB9200A00C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC11117817DBAB9200A00C03 /* GitBackToWork.app */,
+				FC1111A417DBAB9200A00C03 /* GitBackToWorkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC11117A17DBAB9200A00C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC11117B17DBAB9200A00C03 /* UIKit.framework */,
+				FC11117D17DBAB9200A00C03 /* Foundation.framework */,
+				FC11117F17DBAB9200A00C03 /* CoreGraphics.framework */,
+				FC1111A517DBAB9200A00C03 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC11118117DBAB9200A00C03 /* GitBackToWork */ = {
+			isa = PBXGroup;
+			children = (
+				FC11118A17DBAB9200A00C03 /* AppDelegate.h */,
+				FC11118B17DBAB9200A00C03 /* AppDelegate.m */,
+				FC11119317DBAB9200A00C03 /* MainStoryboard_iPhone.storyboard */,
+				FC11119617DBAB9200A00C03 /* MainStoryboard_iPad.storyboard */,
+				FC11119917DBAB9200A00C03 /* MasterViewController.h */,
+				FC11119A17DBAB9200A00C03 /* MasterViewController.m */,
+				FC11119C17DBAB9200A00C03 /* DetailViewController.h */,
+				FC11119D17DBAB9200A00C03 /* DetailViewController.m */,
+				FC11118217DBAB9200A00C03 /* Supporting Files */,
+			);
+			path = GitBackToWork;
+			sourceTree = "<group>";
+		};
+		FC11118217DBAB9200A00C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC11118317DBAB9200A00C03 /* GitBackToWork-Info.plist */,
+				FC11118417DBAB9200A00C03 /* InfoPlist.strings */,
+				FC11118717DBAB9200A00C03 /* main.m */,
+				FC11118917DBAB9200A00C03 /* GitBackToWork-Prefix.pch */,
+				FC11118D17DBAB9200A00C03 /* Default.png */,
+				FC11118F17DBAB9200A00C03 /* Default@2x.png */,
+				FC11119117DBAB9200A00C03 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1111AB17DBAB9200A00C03 /* GitBackToWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1111B117DBAB9200A00C03 /* GitBackToWorkTests.h */,
+				FC1111B217DBAB9200A00C03 /* GitBackToWorkTests.m */,
+				FC1111AC17DBAB9200A00C03 /* Supporting Files */,
+			);
+			path = GitBackToWorkTests;
+			sourceTree = "<group>";
+		};
+		FC1111AC17DBAB9200A00C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1111AD17DBAB9200A00C03 /* GitBackToWorkTests-Info.plist */,
+				FC1111AE17DBAB9200A00C03 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC11117717DBAB9200A00C03 /* GitBackToWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1111B617DBAB9200A00C03 /* Build configuration list for PBXNativeTarget "GitBackToWork" */;
+			buildPhases = (
+				FC11117417DBAB9200A00C03 /* Sources */,
+				FC11117517DBAB9200A00C03 /* Frameworks */,
+				FC11117617DBAB9200A00C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitBackToWork;
+			productName = GitBackToWork;
+			productReference = FC11117817DBAB9200A00C03 /* GitBackToWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1111A317DBAB9200A00C03 /* GitBackToWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1111B917DBAB9200A00C03 /* Build configuration list for PBXNativeTarget "GitBackToWorkTests" */;
+			buildPhases = (
+				FC11119F17DBAB9200A00C03 /* Sources */,
+				FC1111A017DBAB9200A00C03 /* Frameworks */,
+				FC1111A117DBAB9200A00C03 /* Resources */,
+				FC1111A217DBAB9200A00C03 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1111AA17DBAB9200A00C03 /* PBXTargetDependency */,
+			);
+			name = GitBackToWorkTests;
+			productName = GitBackToWorkTests;
+			productReference = FC1111A417DBAB9200A00C03 /* GitBackToWorkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC11117017DBAB9200A00C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Roberto;
+			};
+			buildConfigurationList = FC11117317DBAB9200A00C03 /* Build configuration list for PBXProject "GitBackToWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC11116F17DBAB9200A00C03;
+			productRefGroup = FC11117917DBAB9200A00C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC11117717DBAB9200A00C03 /* GitBackToWork */,
+				FC1111A317DBAB9200A00C03 /* GitBackToWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC11117617DBAB9200A00C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11118617DBAB9200A00C03 /* InfoPlist.strings in Resources */,
+				FC11118E17DBAB9200A00C03 /* Default.png in Resources */,
+				FC11119017DBAB9200A00C03 /* Default@2x.png in Resources */,
+				FC11119217DBAB9200A00C03 /* Default-568h@2x.png in Resources */,
+				FC11119517DBAB9200A00C03 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FC11119817DBAB9200A00C03 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1111A117DBAB9200A00C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1111B017DBAB9200A00C03 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC1111A217DBAB9200A00C03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC11117417DBAB9200A00C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC11118817DBAB9200A00C03 /* main.m in Sources */,
+				FC11118C17DBAB9200A00C03 /* AppDelegate.m in Sources */,
+				FC11119B17DBAB9200A00C03 /* MasterViewController.m in Sources */,
+				FC11119E17DBAB9200A00C03 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC11119F17DBAB9200A00C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1111B317DBAB9200A00C03 /* GitBackToWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1111AA17DBAB9200A00C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC11117717DBAB9200A00C03 /* GitBackToWork */;
+			targetProxy = FC1111A917DBAB9200A00C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC11118417DBAB9200A00C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC11118517DBAB9200A00C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC11119317DBAB9200A00C03 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC11119417DBAB9200A00C03 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FC11119617DBAB9200A00C03 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC11119717DBAB9200A00C03 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1111AE17DBAB9200A00C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1111AF17DBAB9200A00C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1111B417DBAB9200A00C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1111B517DBAB9200A00C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1111B717DBAB9200A00C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitBackToWork/GitBackToWork-Prefix.pch";
+				INFOPLIST_FILE = "GitBackToWork/GitBackToWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC1111B817DBAB9200A00C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitBackToWork/GitBackToWork-Prefix.pch";
+				INFOPLIST_FILE = "GitBackToWork/GitBackToWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC1111BA17DBAB9200A00C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitBackToWork.app/GitBackToWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitBackToWork/GitBackToWork-Prefix.pch";
+				INFOPLIST_FILE = "GitBackToWorkTests/GitBackToWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC1111BB17DBAB9200A00C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitBackToWork.app/GitBackToWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitBackToWork/GitBackToWork-Prefix.pch";
+				INFOPLIST_FILE = "GitBackToWorkTests/GitBackToWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC11117317DBAB9200A00C03 /* Build configuration list for PBXProject "GitBackToWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1111B417DBAB9200A00C03 /* Debug */,
+				FC1111B517DBAB9200A00C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1111B617DBAB9200A00C03 /* Build configuration list for PBXNativeTarget "GitBackToWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1111B717DBAB9200A00C03 /* Debug */,
+				FC1111B817DBAB9200A00C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC1111B917DBAB9200A00C03 /* Build configuration list for PBXNativeTarget "GitBackToWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1111BA17DBAB9200A00C03 /* Debug */,
+				FC1111BB17DBAB9200A00C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC11117017DBAB9200A00C03 /* Project object */;
+}
